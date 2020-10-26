@@ -1,0 +1,4 @@
+<import src="../template/template.wxml"/>
+<view class="wxParser container-class">
+  <template is="wxParser" data="{{wxParserData: richTextNode, imageLazyLoad, imageShowMenuByLongpress, imageWebp}}"/>
+</view>

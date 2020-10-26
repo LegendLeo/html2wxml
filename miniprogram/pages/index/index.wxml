@@ -1,0 +1,14 @@
+<button bind:tap="changeContent">更改内容</button>
+<wxparser
+  rich-text="{{richText}}"
+  image-lazy-load
+  image-show-menu-by-longpress="{{true}}"
+  image-preview="{{false}}"
+  bind:tapImg="tapWxParserImg"
+  bind:tapLink="tapWxParserLink"
+  bind:bindImgLoad="wxParserImgLoad"
+  bind:ready="wxParserReady"
+  bind:attached="wxParserAttached"
+  bind:detached="wxParserDetached"
+  class="parser"
+></wxparser>

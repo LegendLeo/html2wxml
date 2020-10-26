@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wxparser": "plugin://myPlugin/wxparser"
+  }
+}
