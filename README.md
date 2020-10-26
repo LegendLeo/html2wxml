@@ -6,7 +6,7 @@
 
 ### 使用
 
-1. 在微信小程序管理后台，按 APPID `wx07144fae9c5b20d2` 搜索到该插件，并点击添加，即可在代码中使用 `html2wxml` 了
+1. 在微信小程序管理后台，按 APPID `wx23e37b23b2383d2b` 搜索到该插件，并点击添加，即可在代码中使用 `html2wxml` 了
 
 2. 在 `app.json` 中声明插件引入。目前插件版本为 `0.1.0`，`provider` 为该插件的 APPID，`wxparserPlugin` 为自定义的插件名称。
 
@@ -14,7 +14,7 @@
 "plugins": {
   "wxparserPlugin": {
     "version": "0.1.0",
-    "provider": "wx07144fae9c5b20d2"
+    "provider": "wx23e37b23b2383d2b"
   }
 }
 ```
