@@ -1,8 +1,10 @@
 .wxParser-div,
 .wxParser-p {
   word-break: break-all;
-  overflow: auto;
+  overflow: visible;
   max-width: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap !important;
 }
 
 .wxParser-inline {
